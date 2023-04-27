@@ -8,10 +8,11 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 import static tests.TestData.*;
 
-@Tag("faker")
+
 public class StepsFormWithFakerUtilsTest extends TestBase {
 
     @Test
+    @Tag("faker")
     @Feature("Filling form")
     @Story("Filling form with different types of data")
     @Owner("korovinaiyu")
