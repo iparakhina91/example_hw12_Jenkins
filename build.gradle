@@ -45,9 +45,3 @@ task fillingform_test(type: Test) {
         includeTags("faker")
     }
 }
-
-task form_property_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("property_test")
-    }
-}
